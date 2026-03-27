@@ -1,41 +1,65 @@
-# Prerequisites
-*.d
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.VC.db
+*.VC.opendb
 
+# =========================
+# Build folders
+# =========================
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# =========================
+# Precompiled headers / cache
+# =========================
+*.pch
+*.ipch
+
+# =========================
 # Compiled Object files
+# =========================
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# =========================
+# Libraries
+# =========================
+*.lib
+*.a
+*.la
+*.lai
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# =========================
+# Dynamic libraries
+# =========================
+*.dll
 *.so
 *.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
+# =========================
 # Executables
+# =========================
 *.exe
 *.out
 *.app
 
-# debug information files
+# =========================
+# Debug files
+# =========================
+*.pdb
+*.ilk
 *.dwo
+
+# =========================
+# Otros
+# =========================
+*.log
+*.tmp
